@@ -49,7 +49,7 @@ const DispalyData = ({data, repositories}) => {
             <div class="card" className='card1'>
               <div class="card-body">
               <div class="card-title">
-                  <h5>Repositories</h5>
+                  <h4>Repositories</h4>
                    <p>{repositories.map(repo=>(
                 <div key={repo.name}>
                     <h5><a target="_blank" href="{repo.html_url}">{repo.name}</a></h5>

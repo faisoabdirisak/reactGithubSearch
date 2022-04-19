@@ -33,7 +33,7 @@ function App() {
         <div class="row justify-content-center pt-5 searchblock">
             <div class="col-12 col-md-10 col-lg-8">
                 <div id="message"></div>
-                    <h2>Github Search</h2>
+                    <h1>Github Search</h1>
                 <form id="searchForm" class="card card-sm" method="POST">
                     <div class="card-body row no-gutters align-items-center">
                          <div class="col-auto">
